@@ -1,0 +1,116 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    background-color: gray;
+}
+.titleJumbotron {
+    margin: 0px;
+    background-color: black no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.headerDivJumbotron {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: lightgrey;
+    text-align: center;
+    border: 5px solid black;
+    padding: 20px;
+}
+
+#headerJumbotron {
+    font-size: 50px;
+    border-bottom: 2px solid black;
+    
+}
+
+#subheaderJumbotron {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px
+}
+
+#navbar {
+    background-color: darkgray;
+	padding: 10px 30px 10px 30px;
+	overflow: hidden;
+}
+
+.navLink {
+    color: white;
+    margin-right: 50px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.card-header {
+    background-color: gray;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.card-body {
+    border: 2px solid black;
+}
+
+.headlineLink {
+    text-decoration: none;
+    color: white
+}
+
+.headlineLink:hover {
+    text-decoration: none;
+    color: blue
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.articleImage {
+    width: 100%
+}
+
+.buttonColumn {
+    margin-right: 0px
+}
+
+.saveArticleButton {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.modal-header {
+    color: white;
+}
+.buttonRow {
+    margin-top: 10px
+}
+
+#titleinput,
+#bodyinput {
+    width: 100%
+}
+
+.articleContainer {
+    padding-bottom: 50px;
+    padding-top: 20px
+}
+
+.noteCard {
+    display: block;
+    width: 100%
+}
+
+.noteCardBody {
+    color: black
+}
